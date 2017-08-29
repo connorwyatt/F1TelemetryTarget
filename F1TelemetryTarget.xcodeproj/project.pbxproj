@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D82D50E61F55B5D000CE0029 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D82D50D11F55B1B000CE0029 /* main.cpp */; };
 		D82D50E71F55B5D600CE0029 /* libF1TelemetryTarget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D82D50CA1F55B04000CE0029 /* libF1TelemetryTarget.a */; };
+		D86AB3FC1F55CF050052A8DE /* UDPPacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D86AB3FA1F55CF050052A8DE /* UDPPacket.cpp */; };
+		D86AB3FD1F55CF050052A8DE /* UDPPacket.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D86AB3FB1F55CF050052A8DE /* UDPPacket.hpp */; };
 		D87112671F55C230006B7D13 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D87112651F55C230006B7D13 /* test.cpp */; };
 		D87112681F55C230006B7D13 /* test.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D87112661F55C230006B7D13 /* test.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -40,6 +42,8 @@
 		D82D50D11F55B1B000CE0029 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D82D50DB1F55B39000CE0029 /* F1TelemetryTargetTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = F1TelemetryTargetTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82D50EC1F55BC3F00CE0029 /* catch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
+		D86AB3FA1F55CF050052A8DE /* UDPPacket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UDPPacket.cpp; sourceTree = "<group>"; };
+		D86AB3FB1F55CF050052A8DE /* UDPPacket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UDPPacket.hpp; sourceTree = "<group>"; };
 		D87112651F55C230006B7D13 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		D87112661F55C230006B7D13 /* test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = test.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +90,8 @@
 			children = (
 				D87112651F55C230006B7D13 /* test.cpp */,
 				D87112661F55C230006B7D13 /* test.hpp */,
+				D86AB3FA1F55CF050052A8DE /* UDPPacket.cpp */,
+				D86AB3FB1F55CF050052A8DE /* UDPPacket.hpp */,
 			);
 			path = F1TelemetryTarget;
 			sourceTree = "<group>";
@@ -114,6 +120,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86AB3FD1F55CF050052A8DE /* UDPPacket.hpp in Headers */,
 				D87112681F55C230006B7D13 /* test.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D87112671F55C230006B7D13 /* test.cpp in Sources */,
+				D86AB3FC1F55CF050052A8DE /* UDPPacket.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
